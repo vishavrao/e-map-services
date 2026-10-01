@@ -1,116 +1,116 @@
 [
   {
-    "src": "assets/project-01.jpg",
+    "src": "assets/optimized/project-01-full.webp",
     "title": "Illuminated lotus installation",
     "category": "Festive & mall d\u00e9cor",
     "group": "festive"
   },
   {
-    "src": "assets/project-02.jpg",
-    "title": "Golf-side automotive showcase",
-    "category": "Golf & corporate events",
-    "group": "events"
-  },
-  {
-    "src": "assets/project-03.jpg",
-    "title": "A fa\u00e7ade dressed in light",
-    "category": "Lighting & installations",
-    "group": "lighting"
-  },
-  {
-    "src": "assets/project-04.jpg",
+    "src": "assets/optimized/project-04-full.webp",
     "title": "Valentine\u2019s fair entrance",
     "category": "Customised theme d\u00e9cor",
     "group": "festive"
   },
   {
-    "src": "assets/project-05.jpg",
-    "title": "Branded exhibition pavilion",
-    "category": "Exhibitions & activations",
-    "group": "brands"
-  },
-  {
-    "src": "assets/project-06.jpg",
-    "title": "An evening on stage",
-    "category": "Stage & backdrop setup",
-    "group": "events"
-  },
-  {
-    "src": "assets/project-07.jpg",
+    "src": "assets/optimized/project-07-full.webp",
     "title": "A festive arrival experience",
     "category": "Festive & theme d\u00e9cor",
     "group": "festive"
   },
   {
-    "src": "assets/project-08.jpg",
-    "title": "Corporate gathering on the lawn",
-    "category": "Corporate events",
-    "group": "events"
-  },
-  {
-    "src": "assets/project-09.jpg",
+    "src": "assets/optimized/project-09-full.webp",
     "title": "Celebrating India",
     "category": "Mall d\u00e9cor & fabrication",
     "group": "festive"
   },
   {
-    "src": "assets/project-10.jpg",
-    "title": "Light across the courtyard",
-    "category": "Lighting & electrical",
-    "group": "lighting"
-  },
-  {
-    "src": "assets/project-11.jpg",
-    "title": "Golf tournament branding",
-    "category": "Golf events",
-    "group": "events"
-  },
-  {
-    "src": "assets/project-12.jpg",
+    "src": "assets/optimized/project-12-full.webp",
     "title": "A tricolour statement",
     "category": "Fabrication & props",
     "group": "festive"
   },
   {
-    "src": "assets/project-13.jpg",
-    "title": "Seasonal architectural lighting",
-    "category": "Lighting & installations",
-    "group": "lighting"
-  },
-  {
-    "src": "assets/project-14.jpg",
-    "title": "Branded hospitality setup",
-    "category": "Brand activations",
-    "group": "brands"
-  },
-  {
-    "src": "assets/project-15.jpg",
-    "title": "A skyline of festive lights",
-    "category": "Lighting & electrical",
-    "group": "lighting"
-  },
-  {
-    "src": "assets/project-16.jpg",
-    "title": "Behind the installation",
-    "category": "Production & installation",
-    "group": "production"
-  },
-  {
-    "src": "assets/project-17.jpg",
+    "src": "assets/optimized/project-17-full.webp",
     "title": "Bringing a market to life",
     "category": "Carnivals & festive d\u00e9cor",
     "group": "festive"
   },
   {
-    "src": "assets/project-18.jpg",
+    "src": "assets/optimized/project-19-full.webp",
+    "title": "Independence Day installation",
+    "category": "Customised theme d\u00e9cor",
+    "group": "festive"
+  },
+  {
+    "src": "assets/optimized/project-02-full.webp",
+    "title": "Golf-side automotive showcase",
+    "category": "Golf & corporate events",
+    "group": "events"
+  },
+  {
+    "src": "assets/optimized/project-06-full.webp",
+    "title": "An evening on stage",
+    "category": "Stage & backdrop setup",
+    "group": "events"
+  },
+  {
+    "src": "assets/optimized/project-08-full.webp",
+    "title": "Corporate gathering on the lawn",
+    "category": "Corporate events",
+    "group": "events"
+  },
+  {
+    "src": "assets/optimized/project-11-full.webp",
+    "title": "Golf tournament branding",
+    "category": "Golf events",
+    "group": "events"
+  },
+  {
+    "src": "assets/optimized/project-18-full.webp",
     "title": "Tournament media backdrop",
     "category": "Golf events & backdrops",
     "group": "events"
   },
   {
-    "src": "assets/project-19.jpg",
-    "title": "Independence Day installation",
-    "category": "Customised theme d\u00e9cor",
-    "group": "festive"
+    "src": "assets/optimized/project-05-full.webp",
+    "title": "Branded exhibition pavilion",
+    "category": "Exhibitions & activations",
+    "group": "brands"
+  },
+  {
+    "src": "assets/optimized/project-14-full.webp",
+    "title": "Branded hospitality setup",
+    "category": "Brand activations",
+    "group": "brands"
+  },
+  {
+    "src": "assets/optimized/project-03-full.webp",
+    "title": "A fa\u00e7ade dressed in light",
+    "category": "Lighting & installations",
+    "group": "lighting"
+  },
+  {
+    "src": "assets/optimized/project-10-full.webp",
+    "title": "Light across the courtyard",
+    "category": "Lighting & electrical",
+    "group": "lighting"
+  },
+  {
+    "src": "assets/optimized/project-13-full.webp",
+    "title": "Seasonal architectural lighting",
+    "category": "Lighting & installations",
+    "group": "lighting"
+  },
+  {
+    "src": "assets/optimized/project-15-full.webp",
+    "title": "A skyline of festive lights",
+    "category": "Lighting & electrical",
+    "group": "lighting"
+  },
+  {
+    "src": "assets/optimized/project-16-full.webp",
+    "title": "Behind the installation",
+    "category": "Production & installation",
+    "group": "production"
   }
 ]

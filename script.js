@@ -12,7 +12,7 @@ function showPhoto(index) {
   const card = cards[index];
   const source = card.querySelector('img');
   const target = document.querySelector('#large-photo');
-  target.src = source.src; target.alt = source.alt;
+  target.src = source.dataset.full || source.currentSrc || source.src; target.alt = source.alt;
   document.querySelector('#photo-title').textContent = card.querySelector('strong').textContent;
   document.querySelector('#photo-category').textContent = card.querySelector('small').textContent;
   const visible = cards.filter(c => !c.hidden);
