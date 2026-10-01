@@ -1,14 +1,3 @@
-const menu = document.querySelector('.menu-toggle');
-const navigation = document.querySelector('#navigation');
-menu.addEventListener('click', () => {
-  const open = menu.getAttribute('aria-expanded') !== 'true';
-  menu.setAttribute('aria-expanded', String(open));
-  navigation.classList.toggle('open', open);
-  menu.textContent = open ? 'Close' : 'Menu';
-});
-navigation.querySelectorAll('a').forEach(link => link.addEventListener('click', () => {
-  navigation.classList.remove('open'); menu.setAttribute('aria-expanded', 'false'); menu.textContent = 'Menu';
-}));
 const cards = [...document.querySelectorAll('.project')];
 const filters = [...document.querySelectorAll('[data-filter]')];
 filters.forEach(button => button.addEventListener('click', () => {

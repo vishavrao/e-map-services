@@ -1,4 +1,4 @@
-# EMAP Event Services
+# EMAP Services
 
 Company portfolio website for E Map Services, Gurgaon, working since 2021.
 
