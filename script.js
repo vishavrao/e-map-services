@@ -30,3 +30,16 @@ document.querySelector('#previous-photo').addEventListener('click', () => movePh
 document.querySelector('#next-photo').addEventListener('click', () => movePhoto(1));
 dialog.addEventListener('keydown', event => { if (event.key === 'ArrowRight') { event.preventDefault(); movePhoto(1); } if (event.key === 'ArrowLeft') { event.preventDefault(); movePhoto(-1); } });
 document.querySelector('#year').textContent = new Date().getFullYear();
+const sectionLinks = [...document.querySelectorAll('#navigation a')];
+if ('IntersectionObserver' in window) {
+  const sectionObserver = new IntersectionObserver(entries => {
+    entries.forEach(entry => {
+      if (!entry.isIntersecting) return;
+      sectionLinks.forEach(link => {
+        if (link.hash === '#' + entry.target.id) link.setAttribute('aria-current', 'location');
+        else link.removeAttribute('aria-current');
+      });
+    });
+  }, {rootMargin: '-20% 0px -55% 0px', threshold: 0});
+  sectionLinks.forEach(link => { const section = document.querySelector(link.hash); if (section) sectionObserver.observe(section); });
+}
