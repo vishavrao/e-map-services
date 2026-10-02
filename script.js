@@ -43,3 +43,6 @@ if ('IntersectionObserver' in window) {
   }, {rootMargin: '-20% 0px -55% 0px', threshold: 0});
   sectionLinks.forEach(link => { const section = document.querySelector(link.hash); if (section) sectionObserver.observe(section); });
 }
+
+// Keep playback focused and avoid competing audio.
+document.querySelectorAll("video").forEach(video => video.addEventListener("play", () => { document.querySelectorAll("video").forEach(other => { if (other !== video) other.pause(); }); }));
