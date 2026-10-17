@@ -1,0 +1,15 @@
+.git
+.gitignore
+.env
+.env.*
+*.pem
+*.key
+*.p12
+*.pfx
+credentials*.json
+service-account*.json
+.vercel
+node_modules
+*.log
+README.md
+SECURITY-REVIEW.md

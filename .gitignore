@@ -1,0 +1,13 @@
+# Local credentials and environment configuration
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.p12
+*.pfx
+credentials*.json
+service-account*.json
+.vercel/
+node_modules/
+*.log
