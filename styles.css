@@ -66,3 +66,5 @@ header{padding:14px 5%;gap:28px;background:linear-gradient(110deg,#242328f5,#131
 
 .client-list>.client-name{font-family:Georgia,serif;font-size:40px;font-weight:700;color:#202126;letter-spacing:2px}
 @media(max-width:600px){.client-list>.client-logo:last-child{grid-column:auto;width:auto;justify-self:stretch}}
+
+.faq{background:#f7f7f8}.faq details{max-width:900px;border-bottom:1px solid var(--border);padding:20px 0}.faq summary{cursor:pointer;font-weight:600;font-size:18px;min-height:44px}.faq summary:focus-visible{outline:3px solid #a57b31;outline-offset:5px}.faq details p{color:var(--muted);margin:12px 0 0;max-width:760px}
